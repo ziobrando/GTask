@@ -1,5 +1,5 @@
 Testsuite: it.avanscoperta.gtask.TaskTests
-Tests run: 9, Failures: 0, Errors: 0, Time elapsed: 0,322 sec
+Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 0,312 sec
 ------------- Standard Output ---------------
 --Output from test_Task_created_is_not_null--
 --Output from test_Task_creation_date_is_not_null--
@@ -10,6 +10,7 @@ Tests run: 9, Failures: 0, Errors: 0, Time elapsed: 0,322 sec
 --Output from test_Task_with_future_due_date_is_not_overdue--
 --Output from test_Task_with_past_due_date_is_overdue--
 --Output from test_Reopened_task_is_not_completed--
+--Output from test_Reopened_task_has_no_completion_date--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from test_Task_created_is_not_null--
@@ -21,14 +22,16 @@ Tests run: 9, Failures: 0, Errors: 0, Time elapsed: 0,322 sec
 --Output from test_Task_with_future_due_date_is_not_overdue--
 --Output from test_Task_with_past_due_date_is_overdue--
 --Output from test_Reopened_task_is_not_completed--
+--Output from test_Reopened_task_has_no_completion_date--
 ------------- ---------------- ---------------
 
-Testcase: test_Task_created_is_not_null took 0,282 sec
-Testcase: test_Task_creation_date_is_not_null took 0,01 sec
+Testcase: test_Task_created_is_not_null took 0,274 sec
+Testcase: test_Task_creation_date_is_not_null took 0,005 sec
 Testcase: test_Task_created_is_not_overdue took 0,003 sec
-Testcase: test_Task_created_is_not_completed took 0,004 sec
-Testcase: test_Task_completed_is_completed took 0,004 sec
+Testcase: test_Task_created_is_not_completed took 0,005 sec
+Testcase: test_Task_completed_is_completed took 0,003 sec
 Testcase: test_Task_completion_date_is_today took 0,004 sec
-Testcase: test_Task_with_future_due_date_is_not_overdue took 0,002 sec
+Testcase: test_Task_with_future_due_date_is_not_overdue took 0,007 sec
 Testcase: test_Task_with_past_due_date_is_overdue took 0,003 sec
-Testcase: test_Reopened_task_is_not_completed took 0,005 sec
+Testcase: test_Reopened_task_is_not_completed took 0,003 sec
+Testcase: test_Reopened_task_has_no_completion_date took 0,003 sec

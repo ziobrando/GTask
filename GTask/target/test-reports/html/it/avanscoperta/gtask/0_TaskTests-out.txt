@@ -7,4 +7,5 @@
 --Output from test_Task_with_future_due_date_is_not_overdue--
 --Output from test_Task_with_past_due_date_is_overdue--
 --Output from test_Reopened_task_is_not_completed--
+--Output from test_Reopened_task_has_no_completion_date--
 

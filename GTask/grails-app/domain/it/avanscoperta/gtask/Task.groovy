@@ -38,6 +38,7 @@ class Task {
 
   Task reopen() {
 	  this.completed = false
+	  this.completionDate = null
 	  this
   }
 
