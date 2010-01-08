@@ -3,7 +3,7 @@ class GTaskGrailsPlugin {
     def version = "0.1"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.2.0 > *"
-    // the other plugins this plugin depends on
+    // the other plugins this plugin depends on TODO: Joda-Time Plugin
     def dependsOn = [:]
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
@@ -11,8 +11,8 @@ class GTaskGrailsPlugin {
     ]
 
     // TODO Fill in these fields
-    def author = "Your name"
-    def authorEmail = ""
+    def author = "Alberto Brandolini"
+    def authorEmail = "alberto.brandolini@avanscoperta.it"
     def title = "Plugin summary/headline"
     def description = '''\\
 Brief description of the plugin.

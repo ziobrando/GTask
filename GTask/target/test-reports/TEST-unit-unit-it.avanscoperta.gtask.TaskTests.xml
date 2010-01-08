@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="host517.homenet.telecomitalia.it" name="it.avanscoperta.gtask.TaskTests" tests="9" time="0.322" timestamp="2010-01-08T20:26:31">
+  <properties />
+  <testcase classname="it.avanscoperta.gtask.TaskTests" name="test_Task_created_is_not_null" time="0.282" />
+  <testcase classname="it.avanscoperta.gtask.TaskTests" name="test_Task_creation_date_is_not_null" time="0.01" />
+  <testcase classname="it.avanscoperta.gtask.TaskTests" name="test_Task_created_is_not_overdue" time="0.0030" />
+  <testcase classname="it.avanscoperta.gtask.TaskTests" name="test_Task_created_is_not_completed" time="0.0040" />
+  <testcase classname="it.avanscoperta.gtask.TaskTests" name="test_Task_completed_is_completed" time="0.0030" />
+  <testcase classname="it.avanscoperta.gtask.TaskTests" name="test_Task_completion_date_is_today" time="0.0040" />
+  <testcase classname="it.avanscoperta.gtask.TaskTests" name="test_Task_with_future_due_date_is_not_overdue" time="0.0020" />
+  <testcase classname="it.avanscoperta.gtask.TaskTests" name="test_Task_with_past_due_date_is_overdue" time="0.0030" />
+  <testcase classname="it.avanscoperta.gtask.TaskTests" name="test_Reopened_task_is_not_completed" time="0.0050" />
+  <system-out><![CDATA[--Output from test_Task_created_is_not_null--
+--Output from test_Task_creation_date_is_not_null--
+--Output from test_Task_created_is_not_overdue--
+--Output from test_Task_created_is_not_completed--
+--Output from test_Task_completed_is_completed--
+--Output from test_Task_completion_date_is_today--
+--Output from test_Task_with_future_due_date_is_not_overdue--
+--Output from test_Task_with_past_due_date_is_overdue--
+--Output from test_Reopened_task_is_not_completed--
+]]></system-out>
+  <system-err><![CDATA[--Output from test_Task_created_is_not_null--
+--Output from test_Task_creation_date_is_not_null--
+--Output from test_Task_created_is_not_overdue--
+--Output from test_Task_created_is_not_completed--
+--Output from test_Task_completed_is_completed--
+--Output from test_Task_completion_date_is_today--
+--Output from test_Task_with_future_due_date_is_not_overdue--
+--Output from test_Task_with_past_due_date_is_overdue--
+--Output from test_Reopened_task_is_not_completed--
+]]></system-err>
+</testsuite>
